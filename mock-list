@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inventory By List</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!--back button (goes on overy page except first)-->
+    <a href="mock.html" id="back-butt">Back</a>
+
+
+<!--this is a comment-->
+    <div class="list" id="inv-list">
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>hehehaha</p>
+            </a>
+    
+
+    </div>
+
+    
+
+
+
+
+</body>
+
+</html>
