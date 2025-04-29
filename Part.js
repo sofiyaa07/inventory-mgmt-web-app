@@ -1,5 +1,5 @@
 export default class Part {
-    constructor(name, model, location, stock, notes, storeLinks, imgSrc, numParts, PART_ID) {
+    constructor(name, model, location, stock, notes, storeLinks, imgSrc, threshold, PART_ID) {
         this._name = name;
         this._model = model;
         this._location = location;
@@ -7,7 +7,7 @@ export default class Part {
         this._notes = notes;
         this._storeLinks = storeLinks;
         this._imgSrc = imgSrc;
-        this._numParts = numParts;
+        this._threshold = threshold;
         this._PART_ID = PART_ID;
     }
 
