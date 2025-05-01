@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+/* universal styles*/
+
+/* something about this just doesn't apply styles like width */
+#back-butt {
+    margin: 20px;
+    background-color: white;
+    border: 3px solid black;
+    width: 100px;
+}
+
+body {
+    background-color: rgb(200, 221, 245);
+    margin-top: 20px; /* dumb solution that will probably break something else */
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: aliceblue;
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* chat gpt code */
+.button-menu {
+    display: flex;
+    justify-content: center;  /* center items horizontally */
+    align-items: center;      /* center items vertically */
+    gap: 5vh;                 /* space between buttons */
+    height: 100vh;
+    padding: 10vh;
+}
+
+
+.button-menu a {
+    /* changes the stuff to be flexboxed, then centers */
+    display: flex; 
+    flex-direction: column; /* changes to vertical aligment */
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    border: 3px solid black;
+    vertical-align: middle;
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    position: relative;
+}
+
+
+.button-menu img {
+    max-height: 50%;
+}
+
+/* mock list */
+.list {
+    overflow: scroll;
+}
+
+.list a {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.list img {
+    max-height: 40px;
+    border: 2px solid black;
+    
+}
+
+.list p {
+    margin-left: 10px;
+}
+
+#inv-list {
+    display: flex;
+    flex-direction: column;
+    align-items: vertical;
+
+    margin: 20px;
+    height: 80vh;
+    width: 100vh;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#low-stock {
+    margin: 20px;
+    width: 100vh;
+    height: 60vh;
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(8, 1fr);
+    border: 3px solid red;
+    background-color: white;
+}
+
+#low-stock a {
+    border: 1px solid black;
+    color: rgb(33, 0, 0);
+    overflow: hidden;
+    background-color: white;
+    background-image: url("ilovebananas.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+#low-stock a:hover {
+    background-color: aliceblue;
+    color: darkblue;
+}
+
+
+/* shelfs */
+
+#left-shelf {
+    background-color: lightgrey;
+    margin: 5vh 5vh 5vh 15vh;
+    width: 30vh;
+    height: 90vh;
+    display: grid;
+    /* there is a better way to do this */
+    grid-template: repeat(17, 1fr) / repeat(4, 1fr);
+}
+
+#left-shelf a {
+    overflow: hidden;
+}
