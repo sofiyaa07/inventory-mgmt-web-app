@@ -14,11 +14,17 @@
     <a href="mock.html" id="back-butt">Back</a>
 
 
-<!--this is a comment-->
-    <div class="list" id="inv-list">
+    <div class="big-container">
+        <!--this is a comment-->
+        <div class="list" id="inv-list">
+            <!--this would all be referenced using js -->
             <a href="#">
                 <img src="bananana.avif">
-                <p>hehehaha</p>
+                <p>Some Kind of Arduino</p>
+            </a>
+            <a href="#">
+                <img src="bananana.avif">
+                <p>Wires!!</p>
             </a>
             <a href="#">
                 <img src="bananana.avif">
@@ -100,15 +106,89 @@
                 <img src="bananana.avif">
                 <p>hehehaha</p>
             </a>
+
+
+        </div>
+
+
+        <div id="low-stock">
             <a href="#">
-                <img src="bananana.avif">
-                <p>hehehaha</p>
+                Banana
             </a>
-    
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            <a href="#">
+                Banana
+            </a>
+            
+
+        </div>
 
     </div>
-
-    
 
 
 
