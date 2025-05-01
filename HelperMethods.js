@@ -28,3 +28,19 @@ export function sortAlpha(arr) {
     });
     return namesAlpha;
 }
+
+export function sortStockAsc(arr) {
+    /* 
+    Input: array of part objects
+    Return: sorted array of part objects by stock, ascending
+    */
+    // Make comparator function for stock
+    let stockAsc = arr.sort((a, b) => {
+        let stockA = a.stock;
+        let stockB = b.stock;
+        if (stockA < stockB) return -1;
+        if (stockA > stockB) return 1;
+        return 0;
+    });
+    return stockAsc;
+}
