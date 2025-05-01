@@ -16,13 +16,15 @@ export function makeShelf(numRows, numCols) {
 export function sortAlpha(arr) {
     /*
     Input: array of part objects
-    Return: sorted array of parts by name, alphabetical
+    Return: sorted array of part objects by name, alphabetical
     */
-    var namesAlpha = [];
-    // Store part names in namesAlpha
-    for (var idx = 0; idx < arr.length; idx++) {
-        namesAlpha[idx] = arr[idx].name;
-    }
-    // Sort by alpha
-    return namesAlpha.sort();
+    // Make comparator function for names, case insensitive
+    let namesAlpha = arr.sort((a, b) => {
+        let nameA = a.name.toLowerCase();
+        let nameB = b.name.toLowerCase();
+        if (nameA < nameB) return -1;
+        if (nameA > nameB) return 1;
+        return 0;
+    });
+    return namesAlpha;
 }
