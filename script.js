@@ -14,8 +14,8 @@ var part3 = new Part("Arduino MKR Mem Shield", "ARD_A000266", shelf1[1][0], 20, 
 var part4 = new Part("NodeMCU ESP8266", "ARD_A000266", shelf1[1][1], 10, "note", "https...", "image-location.jpg", 5, 0o3);
 
 // Sort objects by name, alphabetical 
-var partArr = [part0, part1, part2, part3, part4];
-var partAlpha = helpers.sortAlpha(partArr);
+let partArr = [part0, part1, part2, part3, part4];
+let partAlpha = helpers.sortAlpha(partArr);
 console.log(partAlpha);
 var partStock = helpers.sortStockAsc(partArr);
 console.log(partStock);
