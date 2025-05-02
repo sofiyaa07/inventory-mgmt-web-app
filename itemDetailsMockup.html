@@ -120,20 +120,23 @@
                 <h2>Arduino Uno REV3</h2>
 
                 <div class="stock-row">
-                    <label>Stock: </label>
-                    <input type="number" value="3">
+                    <label for="stock">Stock:</label>
+                    <input type="number" id="stock" name="stock" value="3">
+                    <label for="threshold">Threshold:</label>
+                    <input type="number" id="stock" name="stock" value="3">
+
                 </div>
 
-                <label>Model</label>
-                <input type="text" value="ARD_A000066">
+                <label for="model">Model:</label>
+                <input type="text" id="model" name="model" value="ARD_A000066">
 
-                <label>Location</label>
-                <input type="text" value="Shelf A">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" value="Shelf A">
 
                 <label>Notes</label>
                 <textarea placeholder="Add any notes here..."></textarea>
 
-                <a href="#" style="text-decoration: underline; color: #2980b9;">Order more</a>
+                <a href="#">Order more</a>
 
                 <div class="button-row">
                     <button class="save">Save</button>
